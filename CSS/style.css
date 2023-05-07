@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+.addclassmax{
+    overflow: hidden;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(240, 255, 255, 0.46);
+    box-shadow: 0px 2px 0px #d1cfcf;
+    padding-left: 130px;
+}
+
+.navword {
+    font-size: 24px;
+    width: 100px;
+    height: 100%;
+    line-height: 50px;
+    background: linear-gradient(135deg, #f9f106, #00edfe, #ff01d9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: colormove 3s infinite linear;
+}
+
+@keyframes colormove {
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+
+header {
+    margin-top: 50px;
+    padding-top: 20px;
+    width: 100vw;
+    height: 150px;
+    background-color: rgba(240, 255, 255, 0.712);
+}
+
+header .themeword {
+    text-align: center;
+    width: 600px;
+    margin: 10px auto;
+    color: #b6b2b2;
+    /* background-color: #f9f106; */
+}
+
+header .themeword .topword {
+
+    font-size: large;
+}
+
+header .themeword .bottomword {
+    margin-top: 20px;
+    font-size: 30px;
+}

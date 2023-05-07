@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+main {
+    background-color: rgba(215, 219, 221, 0.7);
+    padding: 0px 100px;
+    padding-bottom: 40px;
+}
+
+main .mainbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main .colorbox {
+    display: grid;
+    /* display: none; */
+    grid-template-rows: 1.5fr 7fr 1.5fr;
+    margin-top: 40px;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(246, 254, 254);
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #d1cfcf;
+    color: #a6a8aa;
+    font-size: 14px;
+}
+
+main .colorbox:hover {
+    box-shadow: 10px 10px 12px #bcbbbb;
+}
+
+main .colorbox .top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 20px;
+}
+
+main .colorbox .top .downloadimg {
+    transition: all .5s;
+    /* line-height: 40px; */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+main .colorbox .top .downloadimg:hover {
+    color: aquamarine;
+}
+
+main .colorbox .middle {
+    padding: 15px 25px;
+}
+
+main .colorbox .middle .colordata {
+    background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+
+}
+
+.addclass {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    /* left: 50%; 
+    top: 50%; */
+    /* transform: translate(-50%, -50%); */
+    width: 100vw;
+    height: 100vw;
+    /* border-radius: 20%; */
+    transition: all .2s ease-in;
+
+}
+
+main .colorbox .bottom {
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+    padding-right: 20px;
+}
+
+main .colorbox .bottom .copycss {
+    transition: all .5s;
+    /* line-height: 40px; */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+main .colorbox .bottom .copycss:hover {
+    color: aqua;
+}

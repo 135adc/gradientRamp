@@ -1,0 +1,26 @@
+[
+    {
+        "id": "001",
+        "name": "温暖的火焰",
+        "colordata": "#857838-#925532",
+        "color": "linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%)"
+    },
+    {
+        "id": "001",
+        "name": "温暖的火焰",
+        "colordata": "#857838-#925532",
+        "color": "linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);"
+    },
+    {
+        "id": "001",
+        "name": "温暖的火焰",
+        "colordata": "#857838-#925532",
+        "color": "linear-gradient(to top, #fad0c4 0%, #fad0c4 1%, #ffd1ff 100%);"
+    },
+    {
+        "id": "001",
+        "name": "温暖的火焰",
+        "colordata": "#857838-#925532",
+        "color": "linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);"
+    }
+]
